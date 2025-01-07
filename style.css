@@ -1,0 +1,121 @@
+/* Морской фон */
+body {
+    background: url('https://cdn.pixabay.com/photo/2019/11/19/02/05/seascape-4636264_960_720.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Меню */
+.navbar {
+    background-color: rgba(0, 123, 255, 0.7);
+    padding: 10px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .navbar-nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar .navbar-nav li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-color: rgba(0, 123, 255, 0.5);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+/* About Section */
+.about {
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-photo {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text {
+    max-width: 600px;
+}
+
+.text ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.text li {
+    margin: 5px 0;
+}
+
+.text a {
+    color: #ff7f50;
+    text-decoration: none;
+}
+
+.text a:hover {
+    text-decoration: underline;
+}
+
+/* FAQ Section */
+.faq {
+    padding: 50px 0;
+    background-color: rgba(0, 123, 255, 0.3);
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.faq-item p {
+    display: none;
+    color: #ffffff;
+}
+
+.faq-item h3:hover {
+    color: #ff7f50;
+}
+
+
